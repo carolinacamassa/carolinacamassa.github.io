@@ -1,0 +1,138 @@
+
+/* General properties */
+body{
+  background-color: #d9d0f2
+}
+p{
+  font-family: 'Proza Libre', sans-serif;
+}
+
+.redtext{
+  color:#e0453a
+}
+
+.main{
+  padding: 10vh 10vw 10vw 10vw;
+  font-size:25px;
+}
+/* Titolo */
+
+.hello{
+  width: 5em;
+  margin-bottom: 25px;
+  -webkit-animation: rotating 7s linear infinite;
+}
+
+h1{
+  font-size:2em;
+  font-family: 'Inconsolata', monospace;
+}
+
+.greeting{
+  margin: 0px;
+  position: relative;
+  display: inline-block;
+  margin-bottom:15px;
+
+}
+
+/* Descrizione */
+
+.description{
+  font-size: 1.1em;
+}
+
+.smalltext{
+  font-size:0.8em;
+  vertical-align: sub;
+}
+
+.eng{
+background-color: rgb(255,255,255);opacity:0.5;
+color: black;
+}
+
+/* Bottone */
+#get-in-touch{
+  font-family: Inconsolata, monospace;
+}
+.contact:hover, .contact:focus{
+  background-color: white;
+  color: #e0453a;
+  border-color: white;
+}
+/* animations */
+.rectangle{
+  background: pink;
+  height:40%;
+  position:absolute;
+  display: block;
+  width:0%;
+  bottom:15%;
+  z-index:-1;
+  -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+
+
+.greeting:hover > .rectangle{
+  width:100%;
+}
+
+.cursor {
+  -webkit-animation: 0.8s blinker step-end infinite;
+  -moz-animation: 0.8s blinker step-end infinite;
+  -ms-animation: 0.8s blinker step-end infinite;
+  -o-animation: 0.8s blinker step-end infinite;
+  animation: 0.8s blinker step-end infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+/*  Media queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .main{
+    font-size:16px;
+  }
+  .description{
+    font-size:1.3em;
+  }
+  .hello{
+    width: 7em;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .main{
+    font-size:15px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .main{
+    font-size:20px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .main{
+    font-size:25px;
+  }
+}
