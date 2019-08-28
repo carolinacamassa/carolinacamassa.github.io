@@ -12,7 +12,7 @@ p{
 }
 
 .main{
-  padding: 10vh 10vw 10vw 10vw;
+  padding: 8vh 10vw 20vh 10vw;
   font-size:25px;
 }
 /* Titolo */
@@ -48,27 +48,52 @@ h1{
 }
 
 .eng{
-background-color: rgb(255,255,255);opacity:0.5;
-color: black;
+background-color: white;
+color: #220C10;
+font-style: italic;
 }
 
-/* Bottone */
+/* Footer */
+
+footer{
+  padding: 0 10vw 0 10vw;
+  margin-bottom:0;
+}
 #get-in-touch{
   font-family: Inconsolata, monospace;
+  padding:0;
+}
+
+.contact{
+  color: #220C10
 }
 .contact:hover, .contact:focus{
   background-color: white;
   color: #e0453a;
   border-color: white;
 }
+.links{
+  letter-spacing: 0.1em;
+  line-height: 2em;
+  font-size:1.1em;
+}
+
+
+a:link, a:visited{
+  color:white;
+  text-decoration-color: #e0453a;
+  text-decoration-style: underline;
+}
+
+
 /* animations */
 .rectangle{
-  background: pink;
+  background:#f7e4f3;
   height:40%;
   position:absolute;
   display: block;
   width:0%;
-  bottom:15%;
+  bottom:16%;
   z-index:-1;
   -webkit-transition: all 0.6s ease-in-out;
     -moz-transition: all 0.6s ease-in-out;
@@ -79,7 +104,7 @@ color: black;
 
 
 .greeting:hover > .rectangle{
-  width:100%;
+  width:95%;
 }
 
 .cursor {
@@ -114,6 +139,11 @@ color: black;
   }
   .hello{
     width: 7em;
+  }
+  .cols>span{
+    padding-bottom:3vh;
+    padding-top:3vh;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -121,8 +151,22 @@ color: black;
   .main{
     font-size:15px;
   }
-}
 
+}
+@media (max-width: 768px) {
+  .contact{
+    margin-bottom:15px;
+    margin-top:0;
+  }
+  .links{
+    padding:0;
+      line-height: 2.5rem;
+  }
+  .main{
+    padding-bottom:4vh;
+  }
+
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .main{
