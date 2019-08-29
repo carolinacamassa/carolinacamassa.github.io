@@ -3,7 +3,7 @@
 body{
   background-color: #d9d0f2;
 }
-p{
+p, .links{
   font-family: 'Proza Libre', sans-serif;
 }
 
