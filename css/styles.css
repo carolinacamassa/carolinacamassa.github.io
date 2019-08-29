@@ -54,10 +54,11 @@ font-style: italic;
 }
 
 #reading a{
-  color: white;
+  color:white;
+  padding:0;
+  margin:0;
 }
 #reading a:hover{
-
   text-decoration-style: wavy;
   text-decoration-color:#220C10;
 }
