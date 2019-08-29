@@ -18,7 +18,7 @@ p{
 /* Titolo */
 
 .hello{
-  width: 5em;
+  width: 4.5em;
   margin-bottom: 25px;
   -webkit-animation: rotating 7s linear infinite;
 }
