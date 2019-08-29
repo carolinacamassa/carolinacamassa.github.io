@@ -1,7 +1,7 @@
 
 /* General properties */
 body{
-  background-color: #d9d0f2
+  background-color: #d9d0f2;
 }
 p{
   font-family: 'Proza Libre', sans-serif;
@@ -53,6 +53,14 @@ color: #220C10;
 font-style: italic;
 }
 
+#reading a{
+  color: white;
+}
+#reading a:hover{
+
+  text-decoration-style: wavy;
+  text-decoration-color:#220C10;
+}
 /* Footer */
 
 footer{
@@ -79,7 +87,7 @@ footer{
 }
 
 
-a:link, a:visited{
+.cols a:link, .cols a:visited{
   color:white;
   text-decoration-color: #e0453a;
   text-decoration-style: underline;
@@ -88,12 +96,14 @@ a:link, a:visited{
 
 /* animations */
 .rectangle{
+  border-bottom: 10px;
+  border-color: #d9d0f2;
   background:#f7e4f3;
   height:40%;
   position:absolute;
   display: block;
   width:0%;
-  bottom:16%;
+  bottom:23%;
   z-index:-1;
   -webkit-transition: all 0.6s ease-in-out;
     -moz-transition: all 0.6s ease-in-out;
