@@ -84,7 +84,7 @@ footer{
 .links{
   letter-spacing: 0.1em;
   line-height: 2em;
-  font-size:1.1em;
+  font-size:1em;
 }
 
 
@@ -143,7 +143,7 @@ footer{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .main{
-    font-size:16px;
+    font-size:15px;
   }
   .description{
     font-size:1.3em;
