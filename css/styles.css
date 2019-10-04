@@ -14,7 +14,7 @@ p, .links{
 }
 
 .main{
-  padding: 10vh 10vw 10vh 10vw;
+  padding: 8vh 10vw 10vh 10vw;
   font-size:25px;
 }
 
@@ -59,9 +59,9 @@ a.active{
 /* Titolo */
 
 .hello{
-  width: 4.5em;
   margin-bottom: 25px;
-  -webkit-animation: rotating 7s linear infinite;
+  transform: rotate(20deg);
+  /* -webkit-animation: rotating 7s linear infinite; */
 }
 
 h1{
@@ -158,7 +158,7 @@ footer{
   width:95%;
 } */
 
-/* .cursor {
+.cursor {
   -webkit-animation: 0.8s blinker step-end infinite;
   -moz-animation: 0.8s blinker step-end infinite;
   -ms-animation: 0.8s blinker step-end infinite;
@@ -169,7 +169,7 @@ footer{
   50% {
     opacity: 0;
   }
-}*/
+}
 @-webkit-keyframes rotating {
     from{
         -webkit-transform: rotate(0deg);
