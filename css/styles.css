@@ -60,7 +60,7 @@ a.active{
 
 .hello{
   margin-bottom: 25px;
-  transform: rotate(20deg);
+  transform: rotate(10deg);
   /* -webkit-animation: rotating 7s linear infinite; */
 }
 
