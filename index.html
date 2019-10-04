@@ -8,7 +8,6 @@
   	window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
   	gtag('js', new Date());
-
   	gtag('config', 'UA-138928957-1');
 	</script>
 
@@ -25,12 +24,41 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/styles.css">
+	<!-- FontAwesome -->
+	<script src="https://kit.fontawesome.com/b6729e5506.js" crossorigin="anonymous"></script>
+
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata:700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Proza+Libre:400,400i,700,700i&display=swap" rel="stylesheet">
 </head>
 <body>
 
+<!-- menu -->
+<nav class="navbar sticky-top navbar-expand-lg bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">
+    	<i class="fas fa-bars" style="color:grey; font-size:28px;"></i>
+    </span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="index.html">
+				<img class ="emoji" src="https://img.icons8.com/ultraviolet/40/000000/bright-moon.png">
+				hello</a>
+      <!-- <a class="nav-item nav-link" href="#">
+				<img class = "emoji"src="https://img.icons8.com/color/48/000000/pencil-tip.png">blog</a> -->
+      <a class="nav-item nav-link"href="https://carolinacamassa.tech/Camassa_Carolina_CV_2019.pdf" target = "_blank">
+				<img class = "emoji"src="https://img.icons8.com/cotton/64/000000/red-file--v2.png">resume</a>
+		</div>
+    </div>
+		<a class="nav navbar-nav ml-auto" href='#'>
+
+			<img src="https://img.icons8.com/color/32/000000/launched-rocket.png">
+	 </a>
+
+</nav>
+
+<!-- main -->
   <div class="container-fluid main">
     <img class = "hello" src = "images/greetings.png">
     <div class = "header redtext">
@@ -48,28 +76,17 @@
     </div>
   </div>
 
-  <footer>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-4 col-12 cols" id = "get-in-touch">
+<!-- contact button -->
+  <div class="container-fluid" id ="get-in-touch">
         <a href="mailto:carolina.camassa@gmail.com" target="_blank" >
       <button  type="button " class="btn btn-light contact">Let's get in touch</button></a>
       </div>
 
-      <div class="col-md-4 col-4 cols links">
-        <span><a href="https://www.linkedin.com/carolinacamassa"  target="_blank">linkedin</a></span>
-        <!-- <br /> -->
-        <!-- <span><a href="https://github.com/carolinacamassa"  target="_blank">github</a></span> -->
-      </div>
-
-      <div class="col-md-4 col-4 cols links">
-        <span><a href="https://carolinacamassa.tech/Camassa_Carolina_CV_2019.pdf"  target="_blank">curriculum</a></span><br />
+<footer class="footer-copyright">
+	made with <span class ="fas fa-heart"></span> in 2019
+</footer>
 
 
-      </div>
-    </div>
-  </div>
-<footer>
   <!-- JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

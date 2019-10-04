@@ -1,5 +1,7 @@
 
 /* General properties */
+
+
 body{
   background-color: #d9d0f2;
 }
@@ -12,9 +14,48 @@ p, .links{
 }
 
 .main{
-  padding: 8vh 10vw 20vh 10vw;
+  padding: 8vh 10vw 15vh 10vw;
   font-size:25px;
 }
+
+/* NAVBAR */
+
+#navbarNavAltMarkup {
+  margin-left: 35px;
+}
+
+.navbar{
+  background-color: #f8f9fb;
+}
+
+
+a.nav-item{
+  color:#220C10;
+
+}
+
+a.active{
+  color: grey;
+}
+
+
+.emoji{
+    width: 16px;
+    height: 16px;
+    margin-right:3px;
+    background-size: cover;
+    display: inline-block;
+    color: transparent;
+    line-height: 1em;
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav-item{
+  margin-right:50px;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
 /* Titolo */
 
 .hello{
@@ -25,7 +66,7 @@ p, .links{
 
 h1{
   font-size:2em;
-  font-family: 'Inconsolata', monospace;
+  font-family:  'SFMono-Regular',Consolas,Liberation Mono,Menlo,Courier,monospace;
 }
 
 .greeting{
@@ -64,13 +105,10 @@ font-style: italic;
 }
 /* Footer */
 
-footer{
-  padding: 0 10vw 0 10vw;
-  margin-bottom:0;
-}
+
 #get-in-touch{
   font-family: Inconsolata, monospace;
-  padding-left:0;
+  padding: 0 10vw;
 }
 
 .contact{
@@ -81,22 +119,23 @@ footer{
   color: #e0453a;
   border-color: white;
 }
-.links{
-  letter-spacing: 0.1em;
-  line-height: 2em;
+
+footer{
   font-size:1em;
-}
-
-
-.cols a:link, .cols a:visited{
+  position: absolute;
+  bottom: 0;
+  text-align: right;
+  padding-right:25px;
+  width: 100%;
+  padding-bottom: 25px;
   color:white;
-  text-decoration-color: #e0453a;
-  text-decoration-style: underline;
-}
+  font-family: monospace;
 
+
+}
 
 /* animations */
-.rectangle{
+/* .rectangle{
   border-bottom: 10px;
   border-color: #d9d0f2;
   background:#f7e4f3;
@@ -116,9 +155,9 @@ footer{
 
 .greeting:hover > .rectangle{
   width:95%;
-}
+} */
 
-.cursor {
+/* .cursor {
   -webkit-animation: 0.8s blinker step-end infinite;
   -moz-animation: 0.8s blinker step-end infinite;
   -ms-animation: 0.8s blinker step-end infinite;
@@ -129,7 +168,7 @@ footer{
   50% {
     opacity: 0;
   }
-}
+}*/
 @-webkit-keyframes rotating {
     from{
         -webkit-transform: rotate(0deg);
