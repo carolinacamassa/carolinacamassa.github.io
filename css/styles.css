@@ -14,7 +14,7 @@ p, .links{
 }
 
 .main{
-  padding: 8vh 10vw 10vh 10vw;
+  padding: 8% 10vw 5vh 10vw;
   font-size:25px;
 }
 
@@ -58,10 +58,8 @@ a.active{
 
 /* Titolo */
 
-.hello{
-  margin-bottom: 25px;
-  transform: rotate(10deg);
-  /* -webkit-animation: rotating 7s linear infinite; */
+.constellation{
+  height:3rem;
 }
 
 h1{
@@ -188,9 +186,7 @@ footer{
   .description{
     font-size:1.3em;
   }
-  .hello{
-    width: 7em;
-  }
+
   .cols>span{
     padding-bottom:3vh;
     padding-top:3vh;
