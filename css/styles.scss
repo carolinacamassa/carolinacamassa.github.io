@@ -51,11 +51,14 @@ p{
 .emoji{
     width: 16px;
     height: 16px;
+    display: inline-block;
     background-size: cover;
     color: transparent;
     text-align: center;
     overflow: hidden;
-    align-self: center;
+}
+.nav-link{
+  display: inline-block;
 }
 
 .nav-item{
