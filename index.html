@@ -16,7 +16,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.min.css">
 	<!-- FontAwesome -->
 	<script src="https://kit.fontawesome.com/b6729e5506.js" crossorigin="anonymous"></script>
 
@@ -33,15 +33,15 @@
     	<i class="fas fa-bars" style="color:grey; font-size:28px;"></i>
     </span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+  <div class="collapse navbar-collapse purple-text">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="index.html">
-				<img class ="emoji" src="https://img.icons8.com/ultraviolet/40/000000/bright-moon.png">
+			<img class ="emoji" src="https://img.icons8.com/ultraviolet/40/000000/bright-moon.png">
+      <a class="nav-item nav-link" href="index.html">
 				hello</a>
       <!-- <a class="nav-item nav-link" href="#">
 				<img class = "emoji"src="https://img.icons8.com/color/48/000000/pencil-tip.png">blog</a> -->
-      <a class="nav-item nav-link"href="https://carolinacamassa.tech/Camassa_Carolina_CV_2019.pdf" target = "_blank">
-				<img class = "emoji"src="https://img.icons8.com/cotton/64/000000/red-file--v2.png">resume</a>
+			<img class = "emoji"src="https://img.icons8.com/cotton/64/000000/red-file--v2.png">
+      <a class="nav-item nav-link"href="https://carolinacamassa.tech/Camassa_Carolina_CV_2019.pdf" target = "_blank">resume</a>
 		</div>
     </div>
 		<a class="nav navbar-nav ml-auto" href='#'>
@@ -53,30 +53,27 @@
 
 <!-- main -->
   <div class="container-fluid main" >
-    <!-- <img class = "hello" src = "images/greetings.png"> -->
-		<!-- <img class = "hello" src = "images\constellation.png"> -->
-    <div class = "header redtext">
+    <div class = "header red-text">
 		<img src = "images\constellation.png" class = "constellation">
       <h1 class="greeting">
-
         Hi, I'm Carolina.<span class = "cursor">|</span>
-
       </h1>
       <p class = "description">
-        I'm an <span class = "eng">engineering physics student</span> at Politecnico di Milano.
+        I'm an <span class = "purple-text bg-white font-italic">engineering physics student</span> at Politecnico di Milano.
         <br>
         You can usually find me
-        <span id = "reading"><a href = "https://www.goodreads.com/user/show/7117310-carolina-camassa" target = "_blank">reading</a></span>, designing stuff <span class = "smalltext">(like this website) </span>or programming.
+				<a class= "reading" href = "https://www.goodreads.com/user/show/7117310-carolina-camassa" target = "_blank">reading</a>,
+				designing stuff <span class = "smalltext">(like this website) </span>or programming.
       </p>
 
     </div>
-  </div>
 
 <!-- contact button -->
-  <div class="container-fluid" id ="get-in-touch">
-        <a href="mailto:carolina.camassa@gmail.com" target="_blank" >
-      <button  type="button " class="btn btn-light contact">Let's get in touch</button></a>
-      </div>
+    <button type="button" class="btn btn-light button purple-text">
+      <a href="mailto:carolina.camassa@gmail.com" target="_blank"  class = "contact" >Let's get in touch</a>
+    </button>
+
+</div>
 
 <footer class="footer-copyright">
 	made with <span class ="fas fa-heart"></span> in 2019

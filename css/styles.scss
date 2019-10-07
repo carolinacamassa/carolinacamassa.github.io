@@ -1,0 +1,191 @@
+
+/* General properties */
+$primary:#e0453a;
+$purple:#280023;
+$lilac: #d9d0f2;
+$accent:#9E2F73;
+
+
+@font-face {
+  font-family: 'SFMono-Regular';
+  src: url('/fonts\\SFMonoRegular.woff');
+}
+
+body{
+  background-color: $lilac;
+}
+
+a{
+  color: $purple;
+}
+a:hover{
+  color: $accent;
+  text-decoration: none;
+}
+
+.purple-text{
+  color: $purple;
+}
+
+p{
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 1.4rem;
+}
+
+.red-text{
+  color: $primary;
+}
+
+.main{
+  padding: 8% 10vw 5vh 10vw;
+}
+
+/* NAVBAR */
+
+
+.navbar-nav{
+  background-color: #f8f9fb;
+  margin-left: 35px;
+}
+
+.emoji{
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+    color: transparent;
+    text-align: center;
+    overflow: hidden;
+    align-self: center;
+}
+
+.nav-item{
+  margin-right:50px;
+  font-family:   Consolas, "Liberation Mono", "Courier New", monospace;
+  padding-bottom:0;
+  margin-bottom:10px;
+}
+
+/* Titolo */
+
+.constellation{
+  height:60px;
+  margin-bottom:15px;
+}
+
+h1{
+  font-size:2em;
+  font-family: Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* Descrizione */
+
+
+.smalltext{
+  font-size:0.8em;
+  vertical-align: sub;
+}
+
+.reading{
+  color: white;
+  padding:0;
+  margin:0;
+}
+
+.reading:hover{
+  color: white;
+  text-decoration-color: $purple;
+  text-decoration-line: underline;
+
+}
+
+.button{
+  font-family: Inconsolata, monospace;
+}
+
+.button:hover, .button:focus{
+  background-color: white;
+  border-color: white;
+
+}
+
+.contact{
+  padding: 5vh 0;
+}
+
+/* Footer */
+
+
+footer{
+  font-size:0.8rem;
+  position:absolute;
+  bottom:0;
+  text-align:right;
+  padding-right:25px;
+  margin-top:20px;
+  left:70%;
+  width: 30%;
+  padding-bottom: 3vh;
+  color:white;
+  font-family:  Consolas, "Liberation Mono", "Courier New", monospace;
+
+}
+
+// Animations
+
+.cursor {
+  -webkit-animation: 0.8s blinker step-end infinite;
+  -moz-animation: 0.8s blinker step-end infinite;
+  -ms-animation: 0.8s blinker step-end infinite;
+  -o-animation: 0.8s blinker step-end infinite;
+  animation: 0.8s blinker step-end infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+/*  Media queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .description{
+    font-size:1rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .main{
+    font-size:15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact{
+    margin-bottom:15px;
+    margin-top:10px;
+  }
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .main{
+    font-size:20px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .main{
+    font-size:25px;
+  }
+}
