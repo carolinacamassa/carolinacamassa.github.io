@@ -26,7 +26,9 @@ a:hover{
 .purple-text{
   color: $purple;
 }
-
+h1,h2,h3{
+  font-family: Consolas, "Liberation Mono", "Courier New", monospace;
+}
 p{
   font-family: 'Proza Libre', sans-serif;
   font-size: 1.4rem;
@@ -74,7 +76,7 @@ p{
 
 h1{
   font-size:2em;
-  font-family: Consolas, "Liberation Mono", "Courier New", monospace;
+
 }
 
 /* Descrizione */
@@ -99,13 +101,12 @@ h1{
 }
 
 .button{
-  font-family: Inconsolata, monospace;
+  font-family: Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .button:hover, .button:focus{
   background-color: white;
   border-color: white;
-
 }
 
 .contact{
@@ -113,7 +114,6 @@ h1{
 }
 
 /* Footer */
-
 
 footer{
   font-size:0.8rem;
