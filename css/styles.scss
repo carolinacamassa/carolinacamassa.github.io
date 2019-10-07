@@ -3,7 +3,7 @@
 $primary:#e0453a;
 $purple:#280023;
 $lilac: #d9d0f2;
-$accent:#9E2F73;
+$accent:gray;
 
 
 @font-face {
@@ -74,7 +74,7 @@ p{
 
 h1{
   font-size:2em;
-  font-family: Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Inconsolata, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /* Descrizione */
@@ -115,7 +115,7 @@ h1{
 /* Footer */
 
 
-footer{
+.footer-copyright{
   font-size:0.8rem;
   position:absolute;
   bottom:0;
