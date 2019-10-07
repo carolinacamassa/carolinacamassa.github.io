@@ -3,7 +3,7 @@
 $primary:#e0453a;
 $purple:#280023;
 $lilac: #d9d0f2;
-$accent:#9E2F73;
+$accent:grey;
 
 
 @font-face {
@@ -27,7 +27,7 @@ a:hover{
   color: $purple;
 }
 h1,h2,h3{
-  font-family: Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Consolas, Inconsolata, "Liberation Mono", "Courier New", monospace;
 }
 p{
   font-family: 'Proza Libre', sans-serif;
@@ -76,7 +76,6 @@ p{
 
 h1{
   font-size:2em;
-
 }
 
 /* Descrizione */
@@ -101,7 +100,7 @@ h1{
 }
 
 .button{
-  font-family: Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Inconsolata, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .button:hover, .button:focus{
