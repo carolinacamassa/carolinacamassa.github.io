@@ -15,6 +15,7 @@ body#index{
   background-color: $lilac;
 }
 
+
 a{
   color: $purple;
 }
@@ -147,19 +148,10 @@ h1{
     opacity: 0;
   }
 }
-@-webkit-keyframes rotating {
-    from{
-        -webkit-transform: rotate(0deg);
-    }
-    to{
-        -webkit-transform: rotate(360deg);
-    }
-}
 
 /*  Media queries */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
   .description{
     font-size:1rem;
   }
