@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'IA_Quattro';
+  src: url('fonts/iAWriterQuattroS-Regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/iAWriterQuattroS-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/iAWriterQuattroS-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/iAWriterQuattroS-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'IA_Quattro';
+  src: url('fonts/iAWriterQuattroS-Bold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/iAWriterQuattroS-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/iAWriterQuattroS-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/iAWriterQuattroS-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+       font-weight: bold;
+}
+
+@font-face {
+  font-family: 'IA_Quattro';
+  src: url('fonts/iAWriterQuattroS-Italic.eot'); /* IE9 Compat Modes */
+  src: url('fonts/iAWriterQuattroS-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/iAWriterQuattroS-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/iAWriterQuattroS-Italic.ttf')  format('truetype'); /* Safari, Android, iOS */
+       font-style: italic;
+}
