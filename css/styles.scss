@@ -1,17 +1,18 @@
 @import "webfonts.css";
 
 /* General properties */
-$primary:#e0453a;
-$purple:#280023;
-$lilac: #d9d0f2;
-$accent:gray;
+
+$primary:#5b9377;
+$bodytext:black;
+$bg: #fddede;
+$accent:#ec8c8c;
 
 body#index{
-  background-color: $lilac;
+  background-color: $bg;
 }
 
 a{
-  color: $purple;
+  color: $bodytext;
 }
 
 a:hover{
@@ -19,8 +20,8 @@ a:hover{
   text-decoration: none;
 }
 
-.purple-text{
-  color: $purple;
+.body-text{
+  color: $bodytext;
 }
 
 p{
@@ -91,8 +92,9 @@ h1{
 
 .reading:hover{
   color: white;
-  text-decoration-color: $purple;
+  text-decoration-color: $bodytext;
   text-decoration-line: underline;
+  text-decoration-color: $accent;
 
 }
 
