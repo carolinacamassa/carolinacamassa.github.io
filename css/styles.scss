@@ -2,9 +2,9 @@
 
 /* General properties */
 
-$primary:#5b9377;
+$primary:#3b805a;
 $bodytext:black;
-$bg: #fddede;
+$bg: #ffdad5ba;
 $accent:#ec8c8c;
 
 body#index{
@@ -29,7 +29,7 @@ p{
   font-size: 1.4rem;
 }
 
-.red-text{
+.primary-text{
   color: $primary;
 }
 
@@ -82,19 +82,19 @@ h1{
 .smalltext{
   font-size:0.8em;
   vertical-align: sub;
+  color:$accent;
 }
 
 .reading{
-  color: white;
+  color: $accent;
   padding:0;
   margin:0;
 }
 
 .reading:hover{
-  color: white;
   text-decoration-color: $bodytext;
   text-decoration-line: underline;
-  text-decoration-color: $accent;
+  text-decoration-color: white;
 
 }
 
