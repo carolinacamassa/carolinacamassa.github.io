@@ -2,7 +2,7 @@
 
 /* General properties */
 
-$primary:#3b805a;
+$primary:#44775d;
 $bodytext:black;
 $bg: #ffdad5ba;
 $accent:#ec8c8c;
@@ -22,6 +22,10 @@ a:hover{
 
 .body-text{
   color: $bodytext;
+}
+
+white-text{
+  color:white;
 }
 
 p{
@@ -71,9 +75,9 @@ p{
   margin-bottom:15px;
 }
 
-h1{
-  font-size:2em;
-  font-family: Consolas, "Liberation Mono", "Courier New", monospace;
+#greeting{
+  font-size:1.7em;
+  font-family:  'Fira Mono', monospace;
 }
 
 /* Descrizione */
