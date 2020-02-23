@@ -7,8 +7,11 @@ $bodytext:black;
 $bg: #ffdad5ba;
 $accent:#ec8c8c;
 
-body#index{
+$mainfont: 'IA_Quattro', sans-serif;
+
+body{
   background-color: $bg;
+  font-family: $mainfont;
 }
 
 a{
@@ -24,17 +27,23 @@ a:hover{
   color: $bodytext;
 }
 
-white-text{
-  color:white;
+
+.monospace{
+  font-family: Fira Mono, Inconsolata, monospace;
 }
+
 
 p{
   font-family: 'IA_Quattro', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .primary-text{
   color: $primary;
+}
+
+.accent-text{
+  color: $accent;
 }
 
 .main{
@@ -75,10 +84,12 @@ p{
   margin-bottom:15px;
 }
 
+
 #greeting{
-  font-size:1.7em;
-  font-family:  'Fira Mono', monospace;
+  font-size:2.2rem;
+  padding-top:10vh;
 }
+
 
 /* Descrizione */
 
@@ -86,11 +97,9 @@ p{
 .smalltext{
   font-size:0.8em;
   vertical-align: sub;
-  color:$accent;
 }
 
 .reading{
-  color: $accent;
   padding:0;
   margin:0;
 }
@@ -155,15 +164,13 @@ p{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .description{
-    font-size:11px;
+    font-size:10px;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .main{
-    font-size:15px;
-  }
+
 }
 
 @media (max-width: 768px) {
@@ -175,14 +182,11 @@ p{
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .main{
-    font-size:17px;
-  }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .main{
-    font-size:20px;
-  }
+
+
 }
