@@ -1,5 +1,5 @@
-# carolinacamassa.github.io
-A simple one-page personal website based on the Bootstrap CSS framework.
+[carolinacamassa.tech](https://carolinacamassa.tech)
+A simple personal website built with Bootstrap and hosted through Github Pages.
 
 
 ## Blog
