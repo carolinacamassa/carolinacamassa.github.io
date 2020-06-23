@@ -2,12 +2,15 @@
 
 /* General properties */
 
-$primary:#44775d;
+$primary:#55235b;
 $bodytext:black;
-$bg: #ffdad5ba;
-$accent:#ec8c8c;
 
-$mainfont: 'IA_Quattro', sans-serif;
+$bg:#b4c0e5;
+$accent:white;
+
+$mainfont: 'Work Sans', sans-serif;
+//$mainfont: 'Karla', sans-serif;
+$iawriter: 'IA_Quattro', sans-serif;
 
 body{
   background-color: $bg;
@@ -16,10 +19,14 @@ body{
 
 a{
   color: $bodytext;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    transition: color 0.5s;
 }
 
 a:hover{
-  color: $accent;
+  color: #3700ff;
   text-decoration: none;
 }
 
@@ -29,13 +36,13 @@ a:hover{
 
 
 .monospace{
-  font-family: Fira Mono, Inconsolata, monospace;
+  font-family:  Inconsolata, monospace;
 }
 
 
 p{
-  font-family: 'IA_Quattro', sans-serif;
-  font-size: 1.2rem;
+  font-family: $iawriter;
+  font-size: 1.3rem;
 }
 
 .primary-text{
@@ -54,9 +61,9 @@ p{
 
 
 .navbar-nav{
-  background-color: #f8f9fb;
   margin-left: 35px;
 }
+
 
 .emoji{
     width: 16px;
@@ -73,7 +80,7 @@ p{
 
 .nav-item{
   margin-right:50px;
-  font-family: 'IA_Quattro', monospace ;
+  font-family: $mainfont;
   padding-bottom:0;
 }
 
@@ -86,8 +93,9 @@ p{
 
 
 #greeting{
-  font-size:5vh;
+  font-size:7vh;
   padding-top:10vh;
+  //font-weight:530;
 }
 
 
@@ -106,27 +114,24 @@ p{
   margin:0;
 }
 
-.reading:hover{
-  text-decoration-color: $bodytext;
-  text-decoration-line: underline;
-  text-decoration-color: white;
-
-}
+// .reading:hover{
+//   text-decoration-line: underline;
+//   text-decoration-color: white;
+//
+// }
 
 .button{
-  font-family: Fira Mono, Inconsolata, monospace;
+  font-family: $iawriter;
 }
 
 .button:hover, .button:focus{
   background-color: white;
   border-color: white;
-
 }
 
 .contact{
   padding: 0 2px;
   font-size:14px;
-
 }
 
 /* Footer */
